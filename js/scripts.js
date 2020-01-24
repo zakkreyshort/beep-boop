@@ -19,3 +19,6 @@ $(document).ready(function(){
   $("#output").text(result);
   })
 })
+
+// for (var i=0; i < #onlyInput; i++)
+// {}
