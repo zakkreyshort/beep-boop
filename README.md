@@ -6,33 +6,36 @@
 
 _This is an application that takes user input and then returns a list of values between 0 and the number submitted._
 
-## Specs (Behavior Driven Development)
+GH-Pages: https://zakkreyshort.github.io/beep-boop/
 
-| Specification                                                                                                          	| Input 	| Output                                                              	|
-|------------------------------------------------------------------------------------------------------------------------	|-------	|---------------------------------------------------------------------	|
-| Program does not recognize non-numeric characters, and returns an error message                                        	| A     	| "Please input a number."                                            	|
-| User inputs a number and the program returns a range of numbers from 0 up to the user's inputted number                	| 5     	| ["0", "1", "2", "3", "4", "5"]                                      	|
-| For any input that contains the number 3: the number 3 is replaced with "I'm sorry, Dave.  I'm afraid I can't do that." 	| 3     	| ["0", "1", "2", "I'm sorry, Dave. I'm afraid I can't do that", "4"] 	|
-| For any input that contains the number 2: the number 2 is replaced with "Boop"                                         	| 2     	| ["0", "1", "Boop", "3"]                                             	|
-| For any input that contains the number 1: the number 1 is replaced replaced with "Beep"                                	| 1     	| ["0", "Beep", "2"]                                                  	|
+## Behavior Driven Development Specs
+| Behavior   |      Input     |  Output |
+|----------|:-------------:|------:|
+|Collect input via submit|  5 | 5 |
+| Numbers containing a 3  |    13  |   I'm sorry Dave |
+| Numbers containing a 2  | 42 |    Boop! |
+|Numbers containing a 1  | 11 | Beep!
 
 
 
 ## Setup/Installation Requirements
 
-*_To view the entirety of this project, do the following:_*
-
 1. Open your terminal  
-2. Navigate to your desktop using terminal
-3. Copy the following code into your terminal:
+2. Navigate to your desktop 
+3. Git command: 'git clone https://github.com/zakkreyshort/beep-boop'
 
-```$ git clone ```
 
-This will create a clone of the project directory onto your desktop, and you will be able to navigate the entire project using your Windows Explorer or Mac Finder.  You may open any of the files using the text editor or IDE of your choice.
+
+Following this, you may choose to open/view one or all of the documents within to test my project.
 
 
 
 ## Support and Contact
+
+For questions, concerns, or collaboration, please visit me at github.com/zakkreyshort or email zakkreyjshort@gmail.com
+
+## Known Bugs
+No known bugs as of now.
 
 
 
@@ -40,9 +43,9 @@ This will create a clone of the project directory onto your desktop, and you wil
 
 _This website was created with:_
 
-* HTML5  
-* CSS3
-* Bootstrap CSS Framework
+* HTML 
+* CSS
+* Bootstrap CSS
 * Javascript and jQuery
 * Visual Studio Code 
 
