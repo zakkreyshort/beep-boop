@@ -1,22 +1,21 @@
-
-    // var exception1 = function(num){
-    //   if(num === 1){
-    //     return Beep;
-    //   } else if (num === 2){
-    //     return Boop!;
-    //   } else {
-    //     return I'm sorry, Dave. I'm afraid I can't do that.;
-    //   }
-    // }
-
+// bus log
+var outputNum = function(compare){
+  if (compare === 1){
+    return beep;
+  } else if (compare === 2){
+    return boop;
+  } else {
+  }
+}
 
 
+// user interface
 $(document).ready(function(){
-  $("#inputForm").submit(function(event){
-    event.preventDefault();
-    var input = $("#onlyInput").val();
+  $("form#inputForm").submit(function(event){
+  event.preventDefault();
+  var compare = $("input#onlyInput").val();
+  var result = outputNum(compare);
 
-
-    $("#output").text(input);
+  $("#output").text(result);
   })
 })
