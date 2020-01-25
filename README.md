@@ -35,7 +35,7 @@ Following this, you may choose to open/view one or all of the documents within t
 For questions, concerns, or collaboration, please visit me at github.com/zakkreyshort or email zakkreyjshort@gmail.com
 
 ## Known Bugs
-No known bugs as of now.
+Name form does not currently have function.
 
 
 
