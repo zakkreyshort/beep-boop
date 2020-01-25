@@ -25,7 +25,8 @@ $(document).ready(function(){
   // $("#nameHere").submit(function(event){
   //   event.preventDefault();
   //   var personName = $("input#nameHere").val();
-  //   $("#hideMe").hide();
+  //   $("#namesOnly").hide();
+  //   $("#hideMe").show();
   //   $("#mainH").show();
   // })
 // number form 
