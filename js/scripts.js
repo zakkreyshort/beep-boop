@@ -4,7 +4,7 @@ function please(str){
   for(var index = 0; index <= str; index ++){
     emptyArr.push(index);
   }
-  // logic needs to go in decending order to meet specs -- string.includes(searchvalue, start(optional))
+  // logic needs to go in decending order to meet specs -- string.includes(searchvalue, start(optional)), possibly add form for name varible to replace 'dave'
   for (var z = 0; z <= str; z ++) {
     var makeString = z.toString();
     if (makeString.includes("3")) {
